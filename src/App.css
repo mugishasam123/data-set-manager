@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  padding: 25px;
+}
+
+.first {
+  color: #253e57;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+
+.second {
+  color: #66707f;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.add-outcome {
+  display: flex;
+  gap: 10px;
+  padding: 18px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f9fc;
+  position: absolute;
+  right: 48px;
+  top: 95px;
+  border-radius: 2px;
+}
+
+.add-outcome > span {
+  color: #66707f;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.add-outcome:hover {
+  background-color: #c7d4e1;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.plus {
+  color: #66707f;
+  font-size: 22px;
+}
+
+.portrait-learner {
+  display: flex;
+  gap: 10px;
+}
+
+.temple-icon {
+  flex: 0.4;
+}
+
+.title {
+  font-size: 19px;
+}
+
+.portrait-part {
+  display: flex;
+  justify-content: space-between;
+  flex: 24;
+}
+
+.first-part {
+  display: grid;
+  gap: 30px;
+}
+
+.three-dots:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  display: grid;
+  gap: 4px;
+}
+
+.list-name {
+  display: grid;
+  grid-template-columns: 27% 50% 18% 5%;
+  gap: 18px;
+  align-items: center;
+  padding: 22px;
+  border-left: 16px solid #f0f3f6;
+  background-color: #f8f9fb;
+  background-position: left;
+  transition: background-color 0.6s ease-out;
+}
+
+.list-name:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.desc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  border-left: 16px solid #253e57;
+  padding: 7px;
+}
+
+input {
+  padding: 14px;
+  border: 1px solid #c7d4e1;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+.outcome {
+  width: 25%;
+}
+
+.description {
+  width: 45%;
+}
+
+.check:hover {
+  cursor: pointer;
+}
